@@ -71,10 +71,10 @@ const ctx = document.getElementById('myChart');
 });
 
 // Data Table
-// new DataTable('#example');
+// new DataTable('#dt');
 	
 $(document).ready( function () {
-  const table = $('#example').DataTable( {
+  const table = $('#dt').DataTable( {
     pageLength : 5,
   } )
 } );
@@ -91,8 +91,8 @@ const vtx = document.getElementById('visitorChart');
         data: [2, 12, 3, 5, 19, 25, 30],
         borderWidth: 2,
         borderRadius: 5,
-        backgroundColor: 'rgba(255,19,132, 0.9)',
-        borderColor: 'rgba(255,99,112,0.9)'
+        backgroundColor: 'rgba(112,112,245, 1)',
+        borderColor: 'rgba(112,112,245, 1)'
 
       }, {
         label: 'My Second Dataset',
