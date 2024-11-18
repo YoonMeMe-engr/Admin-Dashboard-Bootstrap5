@@ -12,7 +12,8 @@
 </head>
 <body>
     <div class="d-flex">
-        <aside class="aside p-2">
+        <aside class="aside p-2 pt-0">
+           <div class="position-sticky top-0 pt-2 aside-body">
             <div class="card border-0">
                 <div class="card-body p-2">
                     <div class="ms-3">
@@ -64,6 +65,7 @@
                     </div>
                 </div>
             </div>
+           </div>
         </aside>
         <div class="_backdrop fade"></div>
         <main class="main">
@@ -144,7 +146,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="card">
+                        <div class="card card-topSales">
                             <div class="card-body">
                                 <h1 class="fw-bold mb-4">Top Sales</h1>
                                 <h6 class="">Total</h6>
@@ -214,7 +216,7 @@
                     </div>
                 </div>
                 <div class="row mx-1 mt-3">
-                    <div class="col-lg-8">
+                    <div class="col-lg-8 mb-3 mb-lg-0">
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="mb-4 fw-bold">Order List</h4>
@@ -691,7 +693,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="fw-bold">United Visitor</h4>
+                                <h6 class="mb-0">Total</h6>
+                                <h5 class="fw-bold">$ 166.88k</h5>
+                                <div class="line-chart">
+                                    <canvas id="visitorChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>

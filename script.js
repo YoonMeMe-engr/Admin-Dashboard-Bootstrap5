@@ -71,9 +71,66 @@ const ctx = document.getElementById('myChart');
 });
 
 // Data Table
+// new DataTable('#example');
 	
 $(document).ready( function () {
   const table = $('#example').DataTable( {
     pageLength : 5,
   } )
 } );
+
+// Visitor
+const vtx = document.getElementById('visitorChart');
+
+  new Chart(vtx, {
+    type: 'line', 
+    data: {
+      labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+      datasets: [{
+        label: 'My First Dataset',
+        data: [2, 12, 3, 5, 19, 25, 30],
+        borderWidth: 2,
+        borderRadius: 5,
+        backgroundColor: 'rgba(255,19,132, 0.9)',
+        borderColor: 'rgba(255,99,112,0.9)'
+
+      }, {
+        label: 'My Second Dataset',
+        type: 'bar',
+        data: [20, 1, 3, 10, 19, 25, 30],
+        borderWidth: 2,
+        borderRadius: 5,
+        backgroundColor: 'rgba(255,19,132, 0.9)',
+        borderColor: 'rgba(255,99,112,0.9)'
+
+      }]
+    },
+    options: {
+      maintainAspectRatio: false,
+      scales: {
+        y: {
+          beginAtZero: true,
+          grid: {
+            display: false,
+          },
+          ticks: {
+            stepSize: 5
+          },
+        },
+        x: {
+          grid: {
+            display: false,
+          },
+        }
+      },
+      plugins: {
+        legend: {
+          position: 'bottom',
+          align: 'start',
+          labels: {
+            usePointStyle: true
+          }
+        }
+      },
+    }
+});

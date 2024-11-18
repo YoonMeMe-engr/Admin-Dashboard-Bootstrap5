@@ -26,12 +26,16 @@
         transition: .5s;
         height: 100vh;
         z-index: 1041;
-        background: white;
+        background-color: white;
         width: 20rem;
     }
 
     .aside.show {
         left: 0;
+    }
+
+    .aside-body {
+        position: relative!important;
     }
 }
 
@@ -40,6 +44,14 @@
     height: 40px;
 }
 
+.card-topSales {
+    height: 21.22rem;
+}
+
 .bar-chart{
     height: 15rem;
+}
+
+.line-chart {
+    height: 24.7rem;
 }
