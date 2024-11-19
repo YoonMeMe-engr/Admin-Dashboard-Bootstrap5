@@ -88,10 +88,10 @@
 }
 
 .pen3 {
-    color: #f1c0e8;
-    border: 1px solid rgb(241, 192, 232);
+    color: #9f86c0;
+    border: 1px solid rgb(159, 134, 192);
     border-radius: 5px;
-    background-color: rgba(241, 192, 232, .2);
+    background-color: rgba(159, 134, 192, .2);
 }
 
 .bar1 {
@@ -103,7 +103,7 @@
 }
 
 .bar3 {
-    background-color: #f1c0e8;
+    background-color: #9f86c0;
 }
 
 .bar-chart{
