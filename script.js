@@ -26,16 +26,16 @@ const ctx = document.getElementById('myChart');
         data: [12, 19, 3, 5, 2, 3, 12, 19, 3, 5, 2, 3, 12, 19, 3, 5, 2, 3, 12, 19, 3, 5, 20, 3],
         borderWidth: 2,
         borderRadius: 5,
-        backgroundColor: 'rgba(255,19,132, 0.9)',
-        borderColor: 'rgba(255,99,112,0.9)'
+        backgroundColor: 'rgba(255, 143, 171, 0.9)',
+        borderColor: 'rgba(255, 143, 171,0.9)'
 
       }, {
         label: 'My Second Dataset',
         data: [12, 19, 3, 5, 2, 3, 12, 19, 3, 5, 2, 3, 12, 19, 3, 5, 2, 3, 12, 19, 3, 5, 20, 3],
         borderWidth: 2,
         borderRadius: 5,
-        backgroundColor: 'rgba(112,112,245, 1)',
-        borderColor: 'rgba(112,112,245,1)'
+        backgroundColor: 'rgba(147, 129, 255, 1)',
+        borderColor: 'rgba(147, 129, 255,1)'
       }]
     },
     options: {
@@ -91,8 +91,8 @@ const vtx = document.getElementById('visitorChart');
         data: [2, 12, 3, 5, 19, 25, 30],
         borderWidth: 2,
         borderRadius: 5,
-        backgroundColor: 'rgba(112,112,245, 1)',
-        borderColor: 'rgba(112,112,245, 1)'
+        backgroundColor: 'rgba(147, 129, 255, 1)',
+        borderColor: 'rgba(147, 129, 255, 1)'
 
       }, {
         label: 'My Second Dataset',
@@ -100,8 +100,8 @@ const vtx = document.getElementById('visitorChart');
         data: [20, 1, 3, 10, 19, 25, 30],
         borderWidth: 2,
         borderRadius: 5,
-        backgroundColor: 'rgba(255,19,132, 0.9)',
-        borderColor: 'rgba(255,99,112,0.9)'
+        backgroundColor: 'rgba(255, 143, 171, 0.9)',
+        borderColor: 'rgba(255, 143, 171,0.9)'
 
       }]
     },

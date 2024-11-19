@@ -2,6 +2,14 @@
     width: 21rem;
 }
 
+.aside h1 {
+    color: #f1f077;
+}
+
+.aside h5 {
+    color: #779ff7;
+}
+
 .main {
     width: 100%;
 }
@@ -13,9 +21,9 @@
 
 .list-group-item.active {
     background: transparent;
-    color: #0e3a9c;
+    color: #748cab;
     border-left: solid!important;
-    border-left-color: #0e3a9c;
+    border-left-color: #748cab;
 }
 
 @media screen and (max-width: 768px) {
@@ -39,6 +47,23 @@
     }
 }
 
+.fa1 {
+    color: #ffafcc;
+}
+
+.fa2 {
+    color: #e6affc;
+}
+
+.fa3 {
+    /* color: #ffc8dd; */
+    color: #c89f9c;
+}
+
+.fa4 {
+    color: #e5989b;
+}
+
 .user-icon {
     width: 40px;
     height: 40px;
@@ -48,10 +73,48 @@
     height: 21.22rem;
 }
 
+.pen1 {
+    color: #efd3d7;
+    border: 1px solid rgb(239, 211, 215);
+    border-radius: 5px;
+    background-color: rgba(239, 211, 215, .2);
+}
+
+.pen2 {
+    color: #c8b6ff;
+    border: 1px solid rgb(200, 182, 255);
+    border-radius: 5px;
+    background-color: rgba(200, 182, 255, .2);
+}
+
+.pen3 {
+    color: #f1c0e8;
+    border: 1px solid rgb(241, 192, 232);
+    border-radius: 5px;
+    background-color: rgba(241, 192, 232, .2);
+}
+
+.bar1 {
+    background-color: #efd3d7;
+}
+
+.bar2 {
+    background-color: #c8b6ff;
+}
+
+.bar3 {
+    background-color: #f1c0e8;
+}
+
 .bar-chart{
     height: 15rem;
 }
 
 .line-chart {
-    height: 24.7rem;
+    height: 19.4rem;
+}
+
+.active>.page-link{
+    background-color: #779ff7!important;
+    border-color: #779ff7;
 }
